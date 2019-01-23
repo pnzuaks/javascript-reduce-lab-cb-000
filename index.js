@@ -28,5 +28,6 @@ const wordCountMap = monologueLines.reduce((all, entry) => {
     all[words] = 0
   }
   all[words]++
-  return
-})
+  return all
+  
+}, {})
